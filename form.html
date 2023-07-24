@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<body>
+    <h3>Register Here</h3>
+    <Form>
+        <table>
+            <tr>
+                <td>
+                    Name:&nbsp;
+                </td>
+                <td><input type="text" name="name" placeholder="name" required></td>
+            </tr>
+            <tr>
+                <td>Password:&nbsp;</td>
+                <td><input type="password" name="pass" required placeholder="password"></td>
+            </tr>
+            <tr>
+                <td>Confirm Password:&nbsp;</td>
+                <td><input type="password" name="pass" required placeholder="confirm password"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gen" value="Male" required>male
+                    <input type="radio" name="gen" value="Female" required>female
+                </td>
+            </tr>
+            <tr>
+                <td>Email:&nbsp;</td>
+                <td><input type="mail" name="mail" placeholder="email" required></td>
+            </tr>
+            <tr><td>Phone No:&nbsp;</td> 
+                <td><input type="Phone" required placeholder="9360****"></td>
+            </tr>
+            <tr>
+                <td>DOB:&nbsp;</td>
+                <td>
+                    <input type="date" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Languages known:&nbsp;</td>
+                <td>
+                    <input type="checkbox">Tamil
+                    <input type="checkbox">English
+                    <input type="checkbox">Hindi
+                    <input type="checkbox">Japanese
+                </td>
+            </tr>
+            <tr>
+                <td>Occupation:&nbsp;</td>
+                <td>
+                <select name="select" id="type">
+                    <option value="select">Select</option>
+                    <option value="Staff">Staff</option>
+                    <option value="Student">Student</option>
+                    <option value="employee">Employee</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td>Favourite color:&nbsp;</td>
+                <td><input type="color" required></td>
+            </tr>
+            <tr>
+                <td>Rate yourself:&nbsp;</td>
+                <td>
+                    <input type="range" required>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+                <td><input type="reset"></td>
+            </tr>
+        </table>
+    </Form>
+</body>
+</html>
